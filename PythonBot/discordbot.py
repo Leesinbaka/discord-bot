@@ -19,4 +19,4 @@ class MyClient(discord.Client):
             i = random.randrange(1,14)
             await message.channel.send(file=discord.File(str(i)+'.jpg'))
 client = MyClient()
-client.run('Mzg1MDAxNDY5NTI0NDQzMTM3.Xd_c8g.gyhBXG5V3LmIqjpsOPAJeLUQ7nk')
+client.run('')
